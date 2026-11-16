@@ -1,0 +1,55 @@
+# LAPORAN KOMPUTASI NUMERIK
+## Penyelesaian SPL 3 Variabel Menggunakan Metode Eliminasi Gauss
+
+Nama: Krisantos Irwan Letto   
+NIM: 202511420071
+Kelas: B
+Mata Kuliah: Komputasi Numerik
+
+## 1. Pendahuluan
+
+Sistem Persamaan Linear (SPL) tiga variabel merupakan persamaan yang memiliki tiga variabel, yaitu x, y, dan z. Dalam tugas ini, penyelesaian SPL menggunakan metode Eliminasi Gauss dengan bantuan bahasa pemrograman Python.
+
+## 2. Tujuan
+
+1. Memahami metode Eliminasi Gauss.
+2. Membuat algoritma SPL tiga variabel.
+3. Membuat program menggunakan Python.
+4. Mengetahui hasil perhitungan SPL.
+
+## 3. Contoh Persamaan
+
+Persamaan yang digunakan:
+
+ 2x + y - z = 8
+ -3x - y + 2z = -11
+ -2x + y + 2z = -3
+
+## 4. Algoritma
+
+MULAI
+1. Masukkan koefisien dan konstanta.
+2. Bentuk matriks augmented.
+3. Lakukan eliminasi Gauss.
+4. Ubah matriks menjadi segitiga atas.
+5. Hitung nilai z.
+6. Hitung nilai y.
+7. Hitung nilai x.
+8. Tampilkan hasil.
+
+## 5. Implementasi Python
+
+Program dibuat menggunakan Google Colab dengan tahapan:
+
+1. Memasukkan matriks persamaan.
+2. Melakukan proses Eliminasi Gauss.
+3. Melakukan substitusi mundur.
+4. Menampilkan hasil perhitungan.
+
+## 6. Hasil Program
+
+Hasil penyelesaian yang diperoleh:
+
+Nilai x = 2.0
+Nilai y = 3.0
+Nilai z = -1.0
